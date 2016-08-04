@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThiqahPods_Example' do
+  pod 'ThiqahPods', :path => '../'
+
+  target 'ThiqahPods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
