@@ -23,6 +23,7 @@
 		7A96EA9A5DE8E0D5C91FDA20 /* Pods_ThiqahPods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F3EA68FEF8682F9C034962 /* Pods_ThiqahPods_Tests.framework */; };
 		7FC0E62F3F2A02B6F8C826B1 /* Pods_ThiqahPods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED9D0C8C500AAFE519079F8 /* Pods_ThiqahPods_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9DCF572F1D5340B6004EBD42 /* ThiqahTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCF572E1D5340B6004EBD42 /* ThiqahTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96A7E9653E65F06052B73EEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A5DB44FFB35A5BD0BBA08EB /* Pods-ThiqahPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThiqahPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThiqahPods_Tests/Pods-ThiqahPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9DCF572D1D5340B6004EBD42 /* ThiqahTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThiqahTest.h; path = ../ThiqahPods/Classes/ThiqahTest.h; sourceTree = "<group>"; };
+		9DCF572E1D5340B6004EBD42 /* ThiqahTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThiqahTest.m; path = ../ThiqahPods/Classes/ThiqahTest.m; sourceTree = "<group>"; };
 		B16B541EC69E8E405AD7A7A8 /* Pods-ThiqahPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThiqahPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThiqahPods_Example/Pods-ThiqahPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C3F3EA68FEF8682F9C034962 /* Pods_ThiqahPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThiqahPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE70435DBA54C10462F4A293 /* Pods-ThiqahPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThiqahPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThiqahPods_Example/Pods-ThiqahPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9DCF572D1D5340B6004EBD42 /* ThiqahTest.h */,
+				9DCF572E1D5340B6004EBD42 /* ThiqahTest.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ThiqahPods */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* ThiqahAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ThiqahViewController.m in Sources */,
+				9DCF572F1D5340B6004EBD42 /* ThiqahTest.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
